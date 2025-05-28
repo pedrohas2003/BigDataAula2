@@ -1,10 +1,10 @@
 # BigDataAula2
 
-# 📊 Validação de Modelos e Métricas de Avaliação
+#  Validação de Modelos e Métricas de Avaliação
 
 Este projeto visa realizar a classificaçãode inadimplência em empréstimos de automóveis, com foco na validação de modelos e no cálculo das principais métricas de avaliação.
 
-## 🗂️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 O notebook está dividido nas seguintes etapas:
 
@@ -24,7 +24,7 @@ O notebook está dividido nas seguintes etapas:
 5. **Validação cruzada**
      - Cálculo das métricas médias e desvios-padrão
      - 
-## 📈 Dados
+##  Dados
 
 - Os dados foram carregados de um arquivo `.csv` contendo as colunas:
   - receita do cliente,
