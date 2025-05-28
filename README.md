@@ -9,11 +9,21 @@ Este projeto visa realizar a classificaçãode inadimplência em empréstimos de
 O notebook está dividido nas seguintes etapas:
 
 1. **Validação de modelos e métricas de avaliação**
+   - Carregamento das bibliotecas Python (`pandas`, `numpy`, `scikit-learn`, etc.)  
+   - Leitura do CSV (`emp_automovel.csv`) 
 2. **Análise Exploratória e Pré-processamento**
+   - Visualização inicial dos dados (`head()`, `info()`, `describe()`)  
 3. **Classificando dados**
+   - Separação de `X` (features) e `y` (target)  
+   - Divisão em conjuntos de treino, validação e teste  
+   - Treino de um modelo simples de Decision Tree
 4. **Métricas de avaliação**
+   - Cálculo de **acurácia**, **precisão**, **recall** e **F1-score**  
+   - Geração da **matriz de confusão**  
+   - Plotagem de curvas **ROC** e **Precision-Recall**  
 5. **Validação cruzada**
-
+     - Cálculo das métricas médias e desvios-padrão
+     - 
 ## 📈 Dados
 
 - Os dados foram carregados de um arquivo `.csv` contendo as colunas:
